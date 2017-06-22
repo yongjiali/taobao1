@@ -1,0 +1,17 @@
+table{width: 100%;height: 100%;background-color: white;margin-bottom: 20px;border-bottom: 1px solid #DCDCDC;}
+td{padding-left: 8px;}
+.tr1{height: 30px;border-bottom: 1px solid #DCDBDE;}
+
+/*.td1,.td3{width: 60px;margin-left: auto; }*/
+.td1 span{font-size: 18px;font-weight: bold;}
+.td2{height: 30px;}
+.touxiang{width: 20px;height: 20px;border-radius: 10px;margin-top: 10px;margin-left: 15px;}
+.name{font-size: 14px;position: relative;top: -5px;left: 5px;}
+.mui-table-view{background-color: white;}
+.td3 input{width: 20px;height: 20px;}
+.mui-body{margin-left: 115px;}
+.mui-ellipsis-2{font-size: 12px}
+.price{color: red;font-size: 20px;margin-top: 5px;}
+#jian,#jia{background-color: #E7E7E7;color: white;}
+#jia:hover{background-color: #B9B9B9;}
+/*.mui-table-view{background-color: #EEEEEE;}*/

@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/taobao.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="faxian_1">
+<ul class="mui-table-view" id="tab">
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+        	<!--<div class="">
+            <img class="mui-media-object mui-pull-left" style="height: 80px;width: 70px;" src="img/pic1.png">
+           </div> -->
+           <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic1.png)"></div>
+           <div class="mui-media-body">
+                <p class="mui-ellipsis-2">雪纺印花百褶裙半身裙，简约的线条和版型上身很好看，整体更有看点。</p>
+                <p style="color: red; font-size: 15px;">￥ 115</p>
+                <p style="color: darkgrey;"> 月销&nbsp;62&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic2.png)"></div>
+            <div class="mui-media-body">        
+                <p class="mui-ellipsis-2">
+                	时尚真皮女凉鞋&nbsp;牛筋底中跟欧美潮鞋&nbsp;2015夏个性森系女鞋子罗马鞋
+                </p>
+                <p style="color: red; font-size: 15px;">￥ 219</p>
+                <p style="color: darkgrey;"> 月销&nbsp;3&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic3.png)"></div>
+            <div class="mui-media-body">
+                <p class="mui-ellipsis-2">藤雷达椅太阳椅 藤椅躺椅 午休藤睡椅 编藤阳台睡椅 懒人月亮椅</p>
+                <p style="color: red; font-size: 15px;">￥ 320</p>
+                <p style="color: darkgrey;"> 月销&nbsp;14&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic4.png)"></div>
+            <div class="mui-media-body">
+                <p class="mui-ellipsis-2">一件漂亮的软纱公主裙，配上一双白色高跟鞋，又美丽又简单。</p>
+                <p style="color: red; font-size: 15px;">￥ 90</p>
+                <p style="color: darkgrey;"> 月销&nbsp;66&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:80px;width:23%;border-radius:15px;background-image:url(img/pic5.png)"></div>
+            <div class="mui-media-body">
+                <p class="mui-ellipsis-2">自制果冻布甸 餐厅专供原料  夏天美食，草莓味</p>
+                <p style="color: red; font-size: 15px;">￥ 21</p>
+                <p style="color: darkgrey;"> 月销&nbsp;236&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+        	<!--<div class="">
+            <img class="mui-media-object mui-pull-left" style="height: 80px;width: 70px;" src="img/pic1.png">
+           </div> -->
+           <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic1.png)"></div>
+           <div class="mui-media-body">
+                <p class="mui-ellipsis-2">雪纺印花百褶裙半身裙，简约的线条和版型上身很好看，整体更有看点。</p>
+                <p style="color: red; font-size: 15px;">￥ 115</p>
+                <p style="color: darkgrey;"> 月销&nbsp;62&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic2.png)"></div>
+            <div class="mui-media-body">        
+                <p class="mui-ellipsi-2s">
+                	时尚真皮女凉鞋&nbsp;牛筋底中跟欧美潮鞋&nbsp;2015夏个性森系女鞋子罗马鞋
+                </p>
+                <p style="color: red; font-size: 15px;">￥ 219</p>
+                <p style="color: darkgrey;"> 月销&nbsp;3&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic3.png)"></div>
+            <div class="mui-media-body">
+                <p class="mui-ellipsis-2">藤雷达椅太阳椅 藤椅躺椅 午休藤睡椅 编藤阳台睡椅 懒人月亮椅</p>
+                <p style="color: red; font-size: 15px;">￥ 320</p>
+                <p style="color: darkgrey;"> 月销&nbsp;14&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:90px;width:23%;border-radius:15px;background-image:url(img/pic4.png)"></div>
+            <div class="mui-media-body">
+                <p class="mui-ellipsis-2">一件漂亮的软纱公主裙，配上一双白色高跟鞋，又美丽又简单。</p>
+                <p style="color: red; font-size: 15px;">￥ 90</p>
+                <p style="color: darkgrey;"> 月销&nbsp;66&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <div class="mui-card-header mui-card-media" style="float:left;height:80px;width:23%;border-radius:15px;background-image:url(img/pic5.png)"></div>
+            <div class="mui-media-body">
+                <p class="mui-ellipsis-2">自制果冻布甸 餐厅专供原料  夏天美食，草莓味</p>
+                <p style="color: red; font-size: 15px;">￥ 21</p>
+                <p style="color: darkgrey;"> 月销&nbsp;236&nbsp;笔&nbsp;免邮费</p>
+            </div>
+        </a>
+    </li>
+</ul>
+	</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+			pullRefresh: {
+				container: ".faxian_1",
+				down: {
+				    
+					contentdown: "下拉可以刷新",
+					contentover: "释放立即刷新",
+					contentrefresh: "正在刷新...",
+					callback: pulldownRefresh
+				}
+			}
+			
+		});
+
+
+
+		function pulldownRefresh() {
+			setTimeout(function() {
+
+				mui(".faxian_1").pullRefresh().endPulldownToRefresh();
+			}, 1500);
+		}
+        
+		
+		</script>
+		<script type="text/javascript">
+		var tab=document.getElementById("tab");
+		var li=tab.getElementsByTagName("li");
+		for(var i =0;i<li.length;i++){
+		li[i].addEventListener("tap",function(){
+			mui.openWindow({
+				url:"jiagouwuche.html",
+				id:"jiagouwuche.html"
+			})
+		})
+		}
+		
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,306 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/index.css",
+			"fonts/mui-icons-extra.ttf",
+			"shouye.html",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/icons-extra.css",
+			"fonts/iconfont.ttf",
+			"shouye-top.html",
+			"css/taobao-one.css"
+		],
+		"refer": [
+			"faxian.html",
+			"shouye.html",
+			"wode.html",
+			"gouwuche_Header.html",
+			"weitao.html",
+			"weitao_header.html",
+			"shouye-top.html"
+		]
+	},
+	"faxian.html": {
+		"resources": [
+			"js/taobao.js",
+			"css/taobao.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"faxian_1.html",
+			"css/taobao-one.css",
+			"img/pica4.png",
+			"faxian_2.html",
+			"img/pic4.png",
+			"img/pic2.png",
+			"img/pic1.png",
+			"img/pic5.png",
+			"img/pic3.png",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf"
+		],
+		"refer": [
+			"faxian_1.html",
+			"faxian_2.html",
+			"jiagouwuche.html"
+		]
+	},
+	"shouye.html": {
+		"resources": [
+			"img/menu10.png",
+			"img/carouselBox61.jpg",
+			"css/taobao-one.css",
+			"img/hotPic4.png",
+			"img/menu2.png",
+			"img/menu1.png",
+			"img/menu5.png",
+			"img/hotPic6.png",
+			"img/hotPic3.png",
+			"img/carouselBox62.jpg",
+			"img/menu8.png",
+			"img/hotPic1.png",
+			"img/menu7.png",
+			"img/pic1.png",
+			"img/hotPic5.png",
+			"img/hotPic7.png",
+			"img/carouselBox63.jpg",
+			"img/menu9.png",
+			"img/menu6.png",
+			"img/hotPic8.png",
+			"img/hotPic2.png",
+			"img/menu3.png",
+			"img/menu4.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/taobao.css",
+			"css/common.css",
+			"img/pic2.png",
+			"img/pic5.png",
+			"img/pic4.png",
+			"img/pic3.png",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"js/shuaxin.js"
+		],
+		"refer": [
+			"sousuo.html",
+			"saoma.html"
+		]
+	},
+	"wode.html": {
+		"resources": [
+			"css/wode1.css",
+			"img/活动.png",
+			"img/资料.png",
+			"img/商城 (1).png",
+			"img/聊天 (1).png",
+			"img/王府-伊利爱儿俱乐部.png",
+			"img/社区.png",
+			"img/库.png",
+			"img/牛.png",
+			"img/我的订单 (1).png",
+			"img/收藏.png",
+			"img/pico13.png",
+			"img/pico6.png",
+			"img/pico7.png",
+			"img/pico3.png",
+			"img/pico8.png",
+			"img/pico10.png",
+			"img/pico4.png",
+			"img/pico12.png",
+			"img/pico5.png",
+			"img/pico1.png",
+			"tao.html",
+			"fonts/mui.ttf",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"zhuce.html"
+		],
+		"refer": [
+			"tao.html",
+			"zhuce.html"
+		]
+	},
+	"gouwuche_Header.html": {
+		"resources": [
+			"css/gouwuche.css",
+			"gouwuche_list.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/gouwuche_header.css",
+			"css/common.css",
+			"js/jquery-1.8.3.min.js",
+			"js/gouwuche.js"
+		],
+		"refer": [
+			"gouwuche_list.html"
+		]
+	},
+	"gouwuche_list.html": {
+		"resources": [
+			"img/pic4.png",
+			"img/pic2.png",
+			"img/pic3.png",
+			"img/pic1.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/gouwuche.css",
+			"css/gouwuche_list.css",
+			"js/jquery-1.8.3.min.js",
+			"js/vue.js",
+			"css/gouwuche_header.css",
+			"js/gouwuche.js",
+			"gouwuche.json",
+			"js/vue-resource.min.js",
+			"js/vue2.js"
+		],
+		"refer": [
+			"jiagouwuche.html"
+		]
+	},
+	"weitao_list.html": {
+		"resources": [
+			"img/pic4.png",
+			"css/weitao_list.css",
+			"img/pic5.png",
+			"img/pic3.png"
+		]
+	},
+	"weitao_header.html": {
+		"resources": [
+			"weitao_list.html",
+			"css/common.css"
+		],
+		"refer": [
+			"weitao_list.html"
+		]
+	},
+	"faxian_1.html": {
+		"resources": [
+			"img/pic4.png",
+			"img/pic5.png",
+			"img/pic3.png",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"querendingdan_list.html": {
+		"resources": [
+			"css/querendingdan_list.css",
+			"img/pic1.png",
+			"img/pic3.png",
+			"js/vue-resource.min.js",
+			"js/vue.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/querendingdan.js",
+			"js/jquery-1.8.3.min.js"
+		]
+	},
+	"wancheng.html": {
+		"resources": [
+			"css/wancheng.css"
+		]
+	},
+	"tao.html": {
+		"resources": [
+			"css/tao.css",
+			"denglu.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"img/menu1.png",
+			"zhuce.html"
+		],
+		"refer": [
+			"denglu.html",
+			"zhuce.html"
+		]
+	},
+	"denglu.html": {
+		"resources": [
+			"css/denglu.css"
+		],
+		"refer": [
+			"wode_1.html"
+		]
+	},
+	"jiagouwuche.html": {
+		"resources": [
+			"js/vue-resource.min.js",
+			"js/jiarugouwuche.js",
+			"fonts/mui-icons-extra.ttf",
+			"css/jiagouwuche1.css",
+			"jiarugouwuceh.json",
+			"js/vue2.js",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"css/icons-extra.css",
+			"img/pic2.png",
+			"img/pic1.png",
+			"img/pic3.png",
+			"fonts/mui.ttf"
+		]
+	},
+	"zhuce.html": {
+		"resources": [
+			"css/zhuce.css",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"denglu.html"
+		]
+	},
+	"saoma.html": {
+		"resources": [
+			"js/saoma.js"
+		]
+	},
+	"faxian_2.html": {
+		"resources": [
+			"css/taobao2.css",
+			"faxian_3.html"
+		],
+		"refer": [
+			"faxian_3.html"
+		]
+	},
+	"shouye-top.html": {
+		"resources": [
+			"shouye.html",
+			"fonts/mui.ttf",
+			"css/taobao-one.css",
+			"css/iconfont.css",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"shouye.html",
+			"saoma.html"
+		]
+	},
+	"wode_1.html": {
+		"resources": [
+			"img/pico13.png",
+			"img/pico6.png",
+			"img/pico7.png",
+			"img/pico3.png",
+			"css/wode1.css",
+			"img/pico8.png",
+			"img/pico10.png",
+			"img/pico4.png",
+			"img/pico12.png",
+			"img/pico5.png",
+			"img/pico1.png",
+			"img/menu8.png"
+		]
+	}
+}

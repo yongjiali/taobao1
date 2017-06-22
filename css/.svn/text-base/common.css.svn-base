@@ -1,0 +1,6 @@
+/*头部*/
+.mui-bar-nav{
+	background-color: #FF4400;height: 50px;width: 100%;
+}
+.mui-bar-nav .mui-icon{color: white;}
+.mui-title{color: white;font-weight: bold;font-size: 18px;line-height: 50px;}

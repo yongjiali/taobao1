@@ -1,0 +1,27 @@
+body{
+	font-size: 14px;
+}
+.bangzhu{
+	float: right;
+	font-weight: bold;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.top{
+	float: left;
+	margin-top: 2%;
+	width: 98%;
+}
+.touxiang{
+	width: 50%;
+	margin-left: 30%;
+	padding-top: 35%;
+}
+.denglu{
+	float: left;
+	width: 96%;
+	margin-left: 5%;
+	margin-top: 10%;
+}

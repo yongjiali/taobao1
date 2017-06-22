@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css" />
+		<link rel="stylesheet" type="text/css" href="css/querendingdan_list.css" />
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<table border="0px" cellspacing="0" cellpadding="">
+
+			<tr class="tr1">
+				<td class="td1">
+					<span class="mui-icon mui-icon-location"></span>
+				</td>
+				<td class="td2">
+
+					<div class="shr">收货人：张三 13758556487</div>
+					<br />
+					<div class="mui-ellipsis-2 shdz">收货地址：云南省昆明市高新区长园北路300号城市新A座1980室</div>
+					<h1></h1>
+					<h1></h1>
+					<p class="mui-ellipsis-2 tip">
+						（次收货不方便时，可选择待收货服务收货服务）
+					</p>
+				</td>
+				<td>
+					<span class="mui-icon mui-icon-arrowright"></span>
+				</td>
+			</tr>
+
+		</table>
+
+		<!--卡片视图-->
+		<div class="mui-card" style="width: 100%;margin-left: 0px;">
+			<!--头部-->
+			<div class="mui-card-header mui-card-media">
+				<img src="img/pic1.png" class="touxiang0">
+				<div class="mui-media-body">
+					卖红薯的小北家
+
+				</div>
+
+			</div>
+
+			<!--中间-->
+			<div class="mui-card-content">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class=" mui-pull-left" src="img/pic3.png" style="width: 135px;height: 135px;">
+							<div class="mui-body mui-ellipsis-2">
+								卖红薯的小北黄芩粉刺调理水祛痘水去痘印水无激素
+								<p class="mui-ellipsis">颜色：;尺寸：</p>
+								<p class="price">￥56</p>
+
+							</div>
+
+						</a>
+						<!--<div style="position: absolute;right: 10px;top: 120px;">X1</div>-->
+					</li>
+
+				</ul>
+			</div>
+
+			<!--底部列表-->
+
+			<ul class="mui-table-view ul2"style="margin-bottom: 20px;">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">配送方式</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						运费险
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					
+					<form class="mui-input-group">
+	
+						<div class="mui-input-row">
+							<label>买家留言</label>
+
+							<input type="text" class="mui-input-clear" placeholder="选填，可填写您和卖家达成的协议">
+						</div>
+						<a class="mui-navigate-right"></a>
+	
+					</form>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="zj">共一件商品</div>
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+
+</html>

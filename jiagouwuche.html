@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/icons-extra.css" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/jiagouwuche1.css" />
+    <script type="text/javascript" src="js/mui.min.js" ></script>
+    <script type="text/javascript" src="js/jiarugouwuche.js"></script>
+    <script type="text/javascript" src="js/vue2.js" ></script>
+    <script type="text/javascript" src="js/vue-resource.min.js" ></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>	
+<body>
+	<div id="app">
+	<header>
+		<div class="mui-row">
+			<div class="mui-col-xs-2 mui-col-sm-2"><a href="#"><div class="mui-icon mui-icon-back head"></div></a></div>
+			<div class="mui-col-xs-5 mui-col-sm-5"></div>
+			<div class="mui-col-xs-2 mui-col-sm-2"><a href="#"><div class="mui-icon-extra mui-icon-extra-cart head"></div></a></div>
+			<div class="mui-col-xs-1 mui-col-sm-1"></div>
+			<div class="mui-col-xs-2 mui-col-sm-2"><a href="#"><div class="mui-icon iconfont icon-sandian head"></div></a></div>
+		</div>	
+	</header>
+	<div class="foot">
+		<div class="mui-row">
+			<div class="mui-col-xs-2 mui-col-sm-2 footer">
+				<a href="#"><div class="mui-icon mui-icon-chatboxes"></div>
+				<div class="word">客服</div></a>
+			</div>
+			<div class="mui-col-xs-2 mui-col-sm-2 footer" >
+				<a href="#"><div class="mui-icon iconfont icon-vdianpuline"></div>
+				<div style="margin-top:3px;"  class="word">店铺</div></div></a>
+			<div class="mui-col-xs-2 mui-col-sm-2 footer">
+				<a href="#"><div class="mui-icon mui-icon-star"></div>
+				<div class="word">收藏</div></div></a>
+			<div class="mui-col-xs-3 mui-col-sm-3 word1"  id="click2"><a href="#">加入购物车</a></div>
+			<div class="mui-col-xs-3 mui-col-sm-3 word2" id="click3"><a href="#">立即购买</a></div>		
+		</div>
+	</div>
+	<div class="mui-content">
+	    <div class="mui-slider">
+		  <div class="mui-slider-group mui-slider-loop" >
+		    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"  v-for="img1 in imgContent"><img :src="img1.engimg" /></a></div>
+		    <div class="mui-slider-item" v-for="img in imgData"><a href="#"><img :src="img.imgUrl" /></a></div>
+		    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#" v-for="img1 in imgContent"><img :src="img1.startimg" /></a></div>
+		  </div>
+		  
+		  <div class="mui-slider-indicator">
+			<div class="mui-indicator mui-active"></div>
+			<div class="mui-indicator"></div>
+		 </div>
+		</div>
+		
+		<div class="card" id="app1">
+			<div class="mui-card-header">
+				<div class="mui-row">
+					<div class="mui-col-xs-10 mui-col-sm-10 title" v-for="imt in inFormation">{{imt.contenter}}</div>
+					<div class="mui-col-xs-2 mui-col-sm-2 share1">
+						<a href=""><div class="mui-icon-extra mui-icon-extra-share"></div>
+						<div>分享</div></a>
+					</div>
+				</div>
+			</div>
+			<div class="mui-card-content">
+				<div class="price1" v-for="imt in inFormation">
+					&yen;{{imt.price}}
+				</div>
+				<div class="price2"  v-for="imt in inFormation">
+					价格：<s>&yen;{{imt.price2}}</s>
+				</div>
+			</div>
+			<div class="mui-card-footer">
+				<div class="mui-row">
+					<div class="mui-col-xs-4 mui-col-sm-4 word3" v-for="imt in inFormation">{{imt.price3}}</div>
+					<div class="mui-col-xs-4 mui-col-sm-4 word4" v-for="imt in inFormation">{{imt.price4}}</div>
+					<div class="mui-col-xs-4 mui-col-sm-4 word4" v-for="imt in inFormation">{{imt.price5}}</div>
+				</div>
+			</div> 
+		</div>
+		<div class="clarify">
+				<a href="#" id="click">
+					<div class="mui-row clarify1">
+						<div class="mui-col-xs-10 mui-col-sm-10 left">选择颜色分类</div>
+						<div class="mui-col-xs-2 mui-col-sm-2"><font class="mui-icon mui-icon-arrowright"></font></div>	
+					</div>
+				</a>
+		</div>
+		<div class="judgent">
+			<div class="judgent1">宝贝评价（1）</div>
+			<div class="judgent2">
+				<div class="mui-row">
+					<div class="mui-col-xs-2 mui-col-sm-2"><img src="img/pic1.png" alt="宝贝"/></div>
+					<div class="mui-col-xs-10 mui-col-sm-10">shfy*kj</div>
+				</div>			
+			</div>
+			<div class="judgent3">
+				<p class="judgentp1">面料感觉很不错，做工也精细，款式很修身，上档次，试穿了下，传看很舒服，洗完后和新的一样，我很喜欢这件衣服</p>
+				<p class="judgentp2">2015-06-01</p>
+			</div>
+			<div class="judgent4"><a>查看更多评论</a></div>
+		</div>
+		<div class="comfort">
+			<div class="comfort1">
+				<div class="comfort2">
+					<div class="mui-row">
+						<div class="mui-col-xs-2 mui-col-sm-2"><img src="img/pic3.png"  alt="贝壳"/></div>
+						<div class="mui-col-xs-10 mui-col-sm-10">贝壳服务店<br/>5</div>
+					</div>
+				</div>
+				<div class="comfort3">
+					<div class="mui-row">
+						<div class="mui-col-xs-5 mui-col-sm-5">描述相符<font style="color:red;">4.7</font></div>
+						<div class="mui-col-xs-7mui-col-sm-7">服务态度<font style="color:#577480;">4.7</font></div>
+					</div>
+				</div>
+				<div class="comfort4">
+					<div class="mui-row">
+						<div class="mui-col-xs-6 mui-col-sm-6 comfortword">
+							<div>48</div>
+							<div style="color:#999999;">全部宝贝</div>
+						</div>
+						<div class="mui-col-xs-6 mui-col-sm-6 comfortword1">
+							<div>500</div>
+							<div style="color:#999999;">全部人数</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="comfort5">
+					<div class="mui-row">
+						<div class="mui-col-xs-1 mui-col-sm-1"></div>
+						<div class="mui-col-xs-4 mui-col-sm-4">
+							<a id="lianjie">
+								<div class="comfortword2">
+								<font class="mui-icon iconfont icon-sanhengxian"></font>
+								查看宝贝分类
+								</div>
+							</a>
+						</div>
+						<div class="mui-col-xs-2 mui-col-sm-2"></div>
+						<div class="mui-col-xs-4 mui-col-sm-4">
+							<a id="lianjie1">
+								<div class="comfortword2">
+								<font class="mui-icon iconfont icon-vdianpuline"></font>进店逛逛</div>
+							</a>
+						</div>
+						<div class="mui-col-xs-1 mui-col-sm-1"></div>
+					</div>
+				</div>  	
+			</div>
+			
+		</div>
+		<div class="comfort6">
+					<div class="mui-row">
+						<div class="mui-col-xs-6 mui-col-sm-6" id="detail">图文详情</div>
+						<div class="mui-col-xs-6 mui-col-sm-6" id="detail1">产品参数</div>	
+					</div>
+		</div>
+		<div class="comfort7" id="black">
+			<div class="comfortpic" v-for="imt in imgContent">
+				<img :src="imt.engimg" alt="男装"/>
+			</div>
+			<div class="comfortpicword" v-for="imt in imgContent">
+				{{imt.title}}
+			</div>
+		</div>
+		<div class="comfort8"  id="black1">
+			<div class="comfort8word">
+				<div class="mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft">材质成分</div>
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft1" v-for="imt in imgContent">{{imt.title1}}</div>
+				</div>
+			</div>
+			<div class="comfort8word1">
+				<div class="mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft">销量渠道</div>
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft1" v-for="imt in imgContent">{{imt.title2}}</div>
+				</div>
+			</div>
+			<div class="comfort8word1">
+				<div class="mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft">品牌</div>
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft1" v-for="imt in imgContent">{{imt.title3}}</div>
+				</div>
+			</div>
+			<div class="comfort8word1">
+				<div class="mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft">服装版型</div>
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft1" v-for="imt in imgContent">{{imt.title4}}</div>
+				</div>
+			</div>
+			<div class="comfort8word2">
+				<div class="mui-row">
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft">厚薄</div>
+					<div class="mui-col-xs-3 mui-col-sm-3 wordleft1" v-for="imt in imgContent">{{imt.title5}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="sheet1" class="mui-popover mui-popover-bottom mui-popover-action ">
+		 <ul class="mui-table-view">
+	      <li class="mui-table-view">
+	      	<div class="mui-row">
+	      		<div class="mui-col-xs-4 mui-col-sm--sm-4 rowpic" v-for="img in inFormation">
+	      			<img :src="img.imgUrl">
+	      		</div>
+	      		<div class="mui-col-xs-4 mui-col-sm--sm-4 rowpic2">
+	      			<p class="rowpicword" v-for="imt in inFormation">&yen;{{imt.price}}</p>
+	      			<p class="rowpicword1" v-for="imt in inFormation">{{imt.price4}}</p>
+	      			<p class="rowpicword2" v-for="imt in inFormation">{{imt.price6}}</p>
+	      		</div>
+	      		<div class="mui-col-xs-2 mui-col-sm--sm-2">
+	      			
+	      		</div>
+	      		<div class="mui-col-xs-1 mui-col-sm--sm-1  rowpic1" id="circle">
+	      			<a href="#sheet1" class="circle"><font class="mui-icon mui-icon-closeempty"></font></a>
+	      		</div>
+	      	</div>
+	        
+	      </li>
+	      <li class="mui-table-view">
+	        <div class="viewword">颜色分类</div>
+	        <div class="viewcontent" id="rowcolor">
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">草绿（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">橙色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">蓝色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">粉红（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">黑色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">红色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">黄色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">绿色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">墨蓝（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">天蓝（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">紫色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">棕色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">12色混装（12支/盒）</p>
+	        	</div>
+	        </div>
+	      </li>
+	      <li class="mui-table-view" id="viewfoot">
+	        <div class="mui-row">
+	        	<div class="mui-col-xs-6 rowexpress"><a href="#sheet1">加入购物车</a></div>
+	        	<div class="mui-col-xs-6 rowbuy">立即购买</div>	
+	        </div>
+	      </li>
+	      
+	      
+	    </ul> 
+	</div>
+	
+	
+	
+	
+	
+	
+	
+		<div id="sheet2" class="mui-popover mui-popover-bottom mui-popover-action ">
+		 <ul class="mui-table-view">
+	      <li class="mui-table-view">
+	      	<div class="mui-row">
+	      		<div class="mui-col-xs-4 mui-col-sm--sm-4 rowpic" v-for="img in inFormation">
+	      			<img :src="img.imgUrl">
+	      		</div>
+	      		<div class="mui-col-xs-4 mui-col-sm--sm-4 rowpic2">
+	      			<p class="rowpicword" v-for="imt in inFormation">&yen;{{imt.price}}</p>
+	      			<p class="rowpicword1" v-for="imt in inFormation">{{imt.price4}}</p>
+	      			<p class="rowpicword2" v-for="imt in inFormation">{{imt.price6}}</p>
+	      		</div>
+	      		<div class="mui-col-xs-2 mui-col-sm--sm-2">
+	      			
+	      		</div>
+	      		<div class="mui-col-xs-1 mui-col-sm--sm-1  rowpic1" id="circle">
+	      			<a href="#sheet2" class="circle"><font class="mui-icon mui-icon-closeempty"></font></a>
+	      		</div>
+	      	</div>
+	        
+	      </li>
+	      <li class="mui-table-view">
+	        <div class="viewword">颜色分类</div>
+	        <div class="viewcontent" id="rowcolor1">
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">草绿（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">橙色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">蓝色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">粉红（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">黑色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">红色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">黄色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">绿色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">墨蓝（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">天蓝（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">紫色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">棕色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">12色混装（12支/盒）</p>
+	        	</div>
+	        </div>
+	      </li>
+	      <li class="mui-table-view" id="viewfoot">
+	        <div class="mui-row">
+	        	<div class="mui-col-xs-12 rowexpress2"><a href="#sheet2" >确定</a></div>
+	        </div>
+	      </li>
+	      
+	      
+	    </ul> 
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div id="sheet3" class="mui-popover mui-popover-bottom mui-popover-action ">
+		 <ul class="mui-table-view">
+	      <li class="mui-table-view">
+	      	<div class="mui-row">
+	      		<div class="mui-col-xs-4 mui-col-sm--sm-4 rowpic" v-for="img in inFormation">
+	      			<img :src="img.imgUrl">
+	      		</div>
+	      		<div class="mui-col-xs-4 mui-col-sm--sm-4 rowpic2">
+	      			<p class="rowpicword" v-for="imt in inFormation">&yen;{{imt.price}}</p>
+	      			<p class="rowpicword1" v-for="imt in inFormation">{{imt.price4}}</p>
+	      			<p class="rowpicword2" v-for="imt in inFormation">{{imt.price6}}</p>
+	      		</div>
+	      		<div class="mui-col-xs-2 mui-col-sm--sm-2">
+	      			
+	      		</div>
+	      		<div class="mui-col-xs-1 mui-col-sm--sm-1  rowpic1" id="circle">
+	      			<a href="#sheet3" class="circle"><font class="mui-icon mui-icon-closeempty"></font></a>
+	      		</div>
+	      	</div>
+	        
+	      </li>
+	      <li class="mui-table-view">
+	        <div class="viewword">颜色分类</div>
+	        <div class="viewcontent" id="rowcolor3">
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">草绿（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">橙色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">蓝色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">粉红（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">黑色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">红色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">黄色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">绿色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">墨蓝（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">天蓝（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">紫色（12支/盒）</p>
+	        		<div class="mui-col-xs-1 mui-col-sm-1"></div>
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">棕色（12支/盒）</p>
+	        	</div>
+	        	<div class="mui-row">
+	        		<p class="mui-col-xs-5 mui-col-sm-5 rowbackground">12色混装（12支/盒）</p>
+	        	</div>
+	        </div>
+	      </li>
+	      <li class="mui-table-view" id="viewfoot">
+	        <div class="mui-row">
+	        	<div class="mui-col-xs-12 rowexpress2"><a href="#sheet3" >确定</a></div>
+	        </div>
+	      </li>
+	      
+	      
+	    </ul> 
+	</div>
+	</div>
+</body>
+<script type="text/javascript">
+	var vm=new Vue({
+		el:"#app",
+		data:{
+			imgData:[],
+			imgContent:[],
+			inFormation:[]
+		}
+	})
+	mui.ajax({
+		url:'jiarugouwuceh.json',
+		dataType:'json',
+		success:function(data){
+			vm.imgData=data.data;
+			vm.imgContent=data.content;
+			vm.inFormation=data.information;
+		}
+
+	})
+
+	var gallery = mui('.mui-slider');
+		gallery.slider({
+		  interval:5000
+		});
+</script>
+</html>

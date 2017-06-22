@@ -1,0 +1,101 @@
+body{
+	font-family: "微软雅黑";
+}
+
+.mui-bar-nav{
+	background-color:orangered ;
+	height: 3rem;
+}
+a {
+	font-size: 1rem;
+}
+.mui-pull-left{
+	color: white;
+}
+.mui-bar-nav .mui-bar-title{
+	color: white;
+	font-size: 1.1rem;
+}
+.mui-content{
+	margin-top: 0rem;
+	background-color: white;
+}
+body{
+	background-color:white ;
+}
+.mui-input-row{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-color: #e5e5e5;
+	color: #848484;
+	
+}
+.ff{
+	margin-top: 3rem;
+}
+.mui-input-group:after{
+	height: 0;
+}
+.mui-input-group:before{
+	height: 0;
+}
+.mui-login{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.5rem;
+	width: 15%;
+	float: left;
+	text-align: center;
+}
+.zhanghu{
+	display: block;
+	height: 40px;
+	line-height: 44px;
+	font-size: 0.9rem;
+	width: 12%;
+	float: left;
+	text-align: center;
+}
+
+.mui-input-password{
+	font-size: 0.9rem;
+	padding-left: 0.5rem;
+}
+.mui-input-group input{
+	font-size: 0.9rem;
+	float: right;
+	width: 73%;
+}
+
+.mui-btn-login{
+	color: white;
+	background-color: orangered;
+	border: transparent;
+	width: 40%;
+	font-size: 1rem;
+	margin-top: 1.5rem;
+}
+
+.mui-input-group .mui-button-row{
+	height: 5rem;
+}
+
+.cc{
+	width: 80%;
+	margin-top: 3rem;
+	color: #4ccfc7;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+.clearfloat{
+	clear: both;
+}
+.dd{
+	float: left;
+}
+.ee{
+	float: right;
+}
+

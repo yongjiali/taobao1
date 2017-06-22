@@ -1,0 +1,102 @@
+
+@font-face {font-family: "iconfont";
+     src:url('../fonts/iconfont.ttf') format('truetype'); /* chrome firefos opera Safari Android ios 4.2+*/
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weitao:before { content: "\e601";
+ }
+
+.icon-huoche:before { content: "\e647"; }
+
+.icon-saoyisao:before { content: "\e610"; }
+
+.icon-fenxiang:before { content: "\e603"; }
+
+.icon-erweima:before { content: "\e60f"; }
+
+.icon-xin:before { content: "\e64b"; }
+
+.icon-faxian1:before { content: "\e602";
+
+ }
+
+.icon-gouwuche:before { content: "\e612"
+ }
+
+.icon-dianhua:before { content: "\e6e1"; }
+
+.icon-dianhua1:before { content: "\e6a9"; }
+
+.icon-wodedingdan:before { content: "\e622"; }
+
+.icon-daosanjiaoshixin:before { content: "\e7d6"; }
+
+.icon-user:before { content: "\e611"; }
+
+.icon-iconfontwode:before { content: "\e65d";
+
+ }
+
+.icon-ku2:before { content: "\e620"; }
+
+.icon-shezhi:before { content: "\e64c"; }
+
+.icon-weizhi:before { content: "\e613"; }
+
+.icon-gengduoshuxiang:before { content: "\e69f"; }
+
+.icon-xiaoxi:before { content: "\e60a";
+color:white;
+ }
+
+.icon-tuanduibiaozhi:before { content: "\e6b5"; }
+
+.icon-icons64x6413:before { content: "\e645"; }
+
+.icon-shenhebijijishibenxiezi:before { content: "\e633"; }
+
+.icon-bao:before { content: "\e63e"; }
+
+.icon-yonghu:before { content: "\e623"; }
+
+.icon-sangeheng:before { content: "\e6d2"; }
+
+.icon-shouye-shouye:before { content: "\e632"; }
+
+.icon-QQ:before { content: "\e6ca"; }
+
+.icon-qq:before { content: "\e6d3"; }
+
+.icon-faxian:before { content: "\e621"; }
+
+.icon-weixin:before { content: "\e63f"; }
+
+.icon-weixin1:before { content: "\e604"; }
+
+.icon-111:before { content: "\e605"; }
+
+.icon-chat:before { content: "\e69b"; }
+
+.icon-alipay:before { content: "\e606"; }
+
+.icon-yunshuzhongwuliu-xianxing:before { content: "\e882"; }
+
+.icon-file_time:before { content: "\e600"; }
+
+.icon-weibo:before { content: "\e607"; }
+
+.icon-weibo1:before { content: "\e60e"; }
+
+.icon-qq1:before { content: "\e65c"; }
+
+.icon-zhifubao:before { content: "\e624"; }
+
+.icon-iconfontweibowukuang:before { content: "\e608"; }
+

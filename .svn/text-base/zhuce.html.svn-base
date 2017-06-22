@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css" />
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title mui-bar-title">新账户注册</h1>
+		</header>
+		<div class="mui-content">
+			<form class="mui-input-group ff">
+				<div class="mui-input-row">
+					<span class="mui-icon mui-icon-person mui-login"></span>
+					<span class="zhanghu">账户</span>
+					<input type="text" class="mui-input-clear" placeholder="手机号/邮箱">
+				</div>
+				<div class="mui-input-row">
+					<span class="mui-icon mui-icon-locked mui-login"></span>
+					<span class="zhanghu">密码</span>
+					<input type="password" class="mui-input-password" placeholder="请输入密码">
+				</div>
+				<div class="mui-input-row">
+					<span class="mui-icon mui-icon-locked mui-login"></span>
+					<span class="zhanghu">确认密码</span>
+					<input type="password" class="mui-input-password" placeholder="请输入密码">
+				</div>
+				<div class="mui-button-row">
+					<button type="button" class="mui-btn mui-btn-primary mui-btn-login">注册<tton>
+				</div>
+
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript">
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+	<script type="text/javascript">
+    mui(".mui-button-row").on("tap",".mui-btn-login",function(){
+    	mui.openWindow("denglu.html");
+    })
+</script>
+<ml>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/taobao2.css" rel="stylesheet" />
+		<link href="css/taobao.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/taobao-one.css" />
+		<script src="js/taobao.js"></script>
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init({
+				subpages: [{
+					url: "faxian_3.html",
+					id: "faxian_3.html",
+					styles: {
+						top: "80px",
+						bottom: "0px"
+					}
+				}]
+			});
+		</script>
+		<!--<header class="mui-bar mui-bar-nav">
+		<div class="mui-input-row mui-search"id="head">
+		    <input type="search" class="mui-input-clear" placeholder="" style="border: none;width: 48%; background-color: orangered; border-radius:0px;border-bottom: 1px solid white; color: white;">
+		    
+		</div>
+		
+	</header>-->
+		<!-- <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>-->
+		<header class="mui-bar mui-bar-nav " id="header">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" id="back"></a>
+			<div class="mui-title" id="border">
+				<input type="text" id="input" />
+				<font class="mui-icon mui-icon-search mui-icon-right-nav mui-pull-right" id="icon-five"></font>
+			</div>
+			<button type="button" id="button" class="mui-btn mui-btn-warning">搜索</button>
+		</header>
+		<div class="mui-content">
+			<table cellpadding="10px" cellspacing="10px" class="table">
+
+				<th style="width: 29%; border: 1px solid gainsboro;" id="xulie">
+					<a id="xulie_1">
+						<span class="mui-icon mui-icon-arrowdown">综合排序 </span></a>
+				</th>
+
+				<th style="border: 1px solid gainsboro;width: 29%;">
+					<a>销量优先</a>
+				</th>
+				<th style="border: 1px solid gainsboro;width: 29%;" id="shaixuan1">
+					<a class="shaixuan3" id="shaixuan3">
+						<span class="mui-icon mui-icon-arrowdown">筛选</span>
+					</a>
+				</th>
+
+				<th style="border: 1px solid gainsboro;">
+					<a class="fuhao">
+						<span class="mui-icon mui-icon-bars" id="fuhao"></span>
+					</a>
+				</th>
+				</th>
+			</table>
+			<div id="liebiao" class="liebiao">
+				<ul class="mui-table-view" id="liebiao1">
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							综合排序
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							价格升序
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							价格降序
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="shaixuan" class="shaixuan">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+
+						<span class="qujian2">价格区间（元）</span> <input class="qujian1" />&nbsp;-&nbsp;<input class="qujian1" />
+					</li>
+					<li class="mui-table-view-cell">
+						<span class="zhekou">折扣和服务</span>
+						<span class="mui-icon mui-icon-arrowdown" id="xia"></span>
+						<div class="zong">
+							<div class="zong1">
+								<a>免运费</a>
+							</div>
+							<div class="zong1">
+								<a>天猫</a>
+							</div>
+							<div class="zong1">
+								<a>全球购</a>
+							</div>
+							<div class="zong1">
+								<a>消费者保障</a>
+							</div>
+						</div>
+					</li>
+					<li class="mui-table-view-cell">
+						分类：<span class="fenlei">所有分类</span>
+						<span class="mui-icon mui-icon-arrowdown" id="xia1"></span>
+						<div class="song">
+							<div class="song1">
+								<a>3D数码配件市场</a>
+							</div>
+							<div class="song1">
+								<a>品牌手表/流行手表</a>
+							</div>
+							<div class="song1">
+								<a>女装</a>
+							</div>
+						</div>
+						<input type="button" value="重置" class="anniu" style="border: none; border: 1px solid orangered; color: orangered;" />
+						<input type="button" value="确认" class="queren" style="border: none; border: 1px solid orangered; background-color: orangered; color: white;" />
+					</li>
+				</ul>
+			</div>
+			<script type="text/javascript">
+			
+			</script>
+	</body>
+
+</html>

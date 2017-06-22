@@ -1,0 +1,187 @@
+body{
+	font-size: 15px;
+}
+.body{
+	background-color: #F0F0F0;
+}
+a{
+	color: white;
+}
+.top1{
+	height: 30px;
+	width: 100%;
+	text-align: center;
+}
+.top2{
+	width: 100%;
+}
+.top{
+   height: 180px;
+   text-align: center;
+   background-color: orangered;
+}
+.top-right{
+	float: right;
+	width:12%;
+	margin-right: 5%;
+	padding-top: 5%;
+}
+#tu4{
+	width: 40%;
+	height: 40%;
+}
+#wenzi{
+	font-size: 18px;
+   font-weight: bold;
+   float: left;
+   color: white;
+   padding-top: 5%;
+   padding-left: 5%;
+}
+.tou{
+   float: left;
+   padding-top: 15%;
+   margin-left: -15%;
+}
+.tou-right{
+	width: 30%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	float: right;
+	margin-top: 20%;
+	margin-right: -10%;
+	background-color: orange;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.dl{
+	height:40px;
+	width: 105px;
+	margin-top:80px;
+}
+.zc{
+	height:40px;
+	width: 105px;
+	margin-left: 30px;
+	margin-top: 80px;
+}
+.concent{
+	text-align: center;
+	height: 60px;
+	background-color: #FFFFFF;
+}
+#img{
+	height: 13px;
+	width: 12px;
+}
+#img1{
+	height: 13px;
+	width: 12px;
+}
+#img2{
+	height: 15px;
+	width: 15px;
+	}
+
+#img3{
+	height: 15px;
+	width: 15px;
+}
+#write{
+	color: #999999;
+	font-family: "微软雅黑";
+	
+}
+#write1{
+	color: #999999;
+	font-family: "微软雅黑";
+}
+#write2{
+	color: #999999;
+	font-family: "微软雅黑";
+}
+#write3{
+	color: #999999;
+	font-family: "微软雅黑";
+}
+#a1{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a2{
+	float: right;
+	margin-right: 20px;
+	color: #999999;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a3{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a4{
+	float: right;
+	margin-right: 20px;
+	color: #999999;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a5{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a6{
+	float: right;
+	margin-right: 20px;
+	color: #999999;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a7{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a8{
+	float: right;
+	margin-right: 20px;
+	color: #999999;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a9{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a10{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a11{
+	float: right;
+	margin-right: 20px;
+	color: #999999;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+#a12{
+	float: left;
+	color: #555555;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.footer{
+	margin-top: 20px;
+}

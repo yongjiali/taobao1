@@ -1,0 +1,66 @@
+table{background-color: white;margin-top: 8px;}
+.mui-card-header:after {
+    
+    height: 0px;
+    
+}
+
+.mui-card-header>img:first-child {
+    
+   margin-left: 5px;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+}
+.price{color: red;font-size: 18px;margin-top: 10px;}
+.mui-body{font-size: 16px;margin-left: 150px;margin-right: 15px;}
+.ul2{margin-top: 40px;}
+/*.ul2 .mui-table-view-cell{border-bottom: 1px solid #DFDFDF;}*/
+.shr{font-size: 22px;margin-top: 10px;}
+.tip{color: #C09878;font-size: 16px;}
+.ul2 .mui-table-view-cell{font-size: 18px;padding: 15px 15px;color: #555555;}
+.liuyan{font-size: 18px;padding-top: 15px;padding-bottom: 15px;}
+.zj{float:right; text-align:right;font-size: 18px;}
+
+.mui-input-row label {
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    line-height: 1.1;
+    float: left;
+    width: 35%;
+    padding: 11px 0px;
+    /*margin-left: 5px;*/
+}
+/*.ul1 .mui-table-view:after {
+    
+    height: 0px;
+    
+}*/
+.mui-media:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    height: 0px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.ul2 .mui-table-view-cell:after {
+    
+    left: 0px;
+    
+}
+.shdz{font-size: 16px;}
+.mui-input-group1{
+	height: 135px;
+	
+}
+.peisong{
+	height: 53px;
+	line-height: 53px;
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	color: #317EAC;
+	background-color: #EEEEEE;
+}

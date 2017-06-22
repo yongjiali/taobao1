@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/taobao-one.css" />
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<header class="mui-bar mui-bar-nav " id="header">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" id="back"></a>
+			<div class="mui-title" id="border">
+				<input type="text" id="input" />
+				<font class="mui-icon mui-icon-search mui-icon-right-nav mui-pull-right" id="icon-five"></font>
+			</div>
+			<button type="button" id="button" class="mui-btn mui-btn-warning">搜索</button>
+		</header>
+	</body>
+	<script type="text/javascript">
+		mui("#header").on("tap","#button",function(){
+			mui.openWindow("faxian_2.html")
+		})
+				
+//			mui.init({
+//				subpages: [{
+//					url: "faxian_2.html",
+//					id: "faxian_2.html",
+//					styles: {
+//						top: "0px",
+//						bottom: "44px"
+//					}
+//				}]
+//			});
+	</script>
+</html>

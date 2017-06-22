@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/denglu.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+<div class="top">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    <a class="bangzhu"><span>帮助</span></a>
+</div>
+<div class="content">
+	<div class="touxiang">
+		<img src="img/menu1.png" style="border-radius: 50%;"/>
+	</div>
+	<div class="mui-input-row" id="denglu">
+		<input type="text" class="mui-input-clear" placeholder="手机号/会员名/邮箱"/ style="border: none;border-radius:0; border-bottom: 1px solid orangered;width: 88%;background-color: #EFEFF4;">
+	</div>
+	<div class="mui-input-row" id="mima">
+		<input type="password" class="mui-input-password" placeholder="请输入密码" style="border: none; border-radius:0; border-bottom: 1px solid orangered;width: 88%;background-color: #EFEFF4;"/>
+	</div>
+	<div class="zi">
+		<a><span>忘记密码</span></a>
+	</div>
+	<div class="denglu11">
+		<input type="button" placeholder="" value="登录" class="denglu1"/style="width: 80%; background-color: coral; color: white; border-radius: 15px;">
+	</div>
+</div>
+<script type="text/javascript">
+    mui(".denglu11").on("tap",".denglu1",function(){
+    	mui.openWindow("wode_1.html");
+    })
+</script>
+</html>

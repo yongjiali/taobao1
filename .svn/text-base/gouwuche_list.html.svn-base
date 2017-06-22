@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/gouwuche_list.css" />
+		
+	</head>
+	
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="js/gouwuche.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+			
+			mui.init()
+		</script>
+
+		<div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<!--第一个商家-->
+				<table border="0px" cellspacing="0" cellpadding="">
+
+					<tr class="tr1">
+						<td class="td1">
+							<span class="mui-icon mui-icon-arrowright"></span>
+						</td>
+						<!--商家头像-->
+						<td class="td2">
+							<img src="img/pic1.png" class="touxiang" />
+							<span class="name">卖红薯的小北家</span>
+
+						</td>
+					</tr>
+					<tr>
+						<td class="td3">
+							<input type="checkbox" value="56" class="check"/>
+						</td>
+						<!--商家物品简介-->
+						<td class="td4">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell mui-media">
+									<a href="javascript:;">
+										<img class=" mui-pull-left" src="img/pic3.png" style="width: 105px;height: 110px;">
+										<div class="mui-body mui-ellipsis-2">
+											卖红薯的小北黄芩粉刺调理水祛痘水去痘印水无激素
+											<p class="mui-ellipsis-2">颜色;尺寸</p>
+											<p class="price">￥56</p>
+											<div class="mui-numbox" data-numbox-min='1'>
+												<!-- "-"按钮，点击可减小当前数值 -->
+												<button class="mui-btn mui-numbox-btn-minus" id="jian" type="button" >-</button>
+												<input class="mui-numbox-input" type="number" />
+												<!-- "+"按钮，点击可增大当前数值 -->
+												<button class="mui-btn mui-numbox-btn-plus" id="jia" type="button" >+</button>
+											</div>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+						</td>
+					</tr>
+				</table>
+
+				<!--第二个商家-->
+				<table border="0px" cellspacing="0" style="">
+
+					<tr class="tr1">
+						<td class="td1">
+							<span class="mui-icon mui-icon-arrowright"></span>
+						</td>
+						<td class="td2">
+							<img src="img/pic2.png" class="touxiang" />
+							<span class="name">杨才树女斑旗舰店</span>
+
+						</td>
+					</tr>
+					<tr>
+						<td class="td3">
+							<input type="checkbox" value="31" v-model="getPrice"/>
+						</td>
+						<td class="td4">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell mui-media">
+									<a href="javascript:;">
+										<img class=" mui-pull-left" src="img/pic1.png" style="width: 105px;height: 110px;">
+										<div class="mui-body mui-ellipsis-2">
+											2015夏季透气量棉麻连衣裙 夏中群波西米雪纺长裙
+											<p class="mui-ellipsis-2">颜色：黑色;尺寸:S</p>
+											<p class="price">￥31</p>
+											<div class="mui-numbox" data-numbox-min='1'>
+												<!-- "-"按钮，点击可减小当前数值 -->
+												<button class="mui-btn mui-numbox-btn-minus" id="jian" type="button">-</button>
+												<input class="mui-numbox-input" type="number" />
+												<!-- "+"按钮，点击可增大当前数值 -->
+												<button class="mui-btn mui-numbox-btn-plus" id="jia" type="button">+</button>
+											</div>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="td3">
+							<input type="checkbox" value="89" v-model="getPrice"/>
+						</td>
+						<td class="td4">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell mui-media">
+									<a href="javascript:;">
+										<img class=" mui-pull-left" src="img/pic2.png" style="width: 105px;height: 110px;">
+										<div class="mui-body mui-ellipsis-2">
+											2015秋装新款韩版连帽宽松大码中长款卫衣女装外套
+											<p class="mui-ellipsis-2">颜色:枚红色;尺寸：S</p>
+											<p class="price">￥89</p>
+											<div class="mui-numbox" data-numbox-min='1'>
+												<!-- "-"按钮，点击可减小当前数值 -->
+												<button class="mui-btn mui-numbox-btn-minus" id="jian" type="button">-</button>
+												<input class="mui-numbox-input" type="number" />
+												<!-- "+"按钮，点击可增大当前数值 -->
+												<button class="mui-btn mui-numbox-btn-plus" id="jia" type="button">+</button>
+											</div>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+						</td>
+					</tr>
+				</table>
+
+				<!--第三个商家-->
+				<table border="0px" cellspacing="0" style="">
+
+					<tr class="tr1">
+						<td class="td1">
+							<span class="mui-icon mui-icon-arrowright"></span>
+						</td>
+						<td class="td2">
+							<img src="img/pic4.png" class="touxiang" />
+							<span class="name">贝壳服务店</span>
+
+						</td>
+					</tr>
+					<tr>
+						<td class="td3">
+							<input type="checkbox" value="56" v-model="getPrice"/>
+						</td>
+						<td class="td4">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell mui-media">
+									<a href="javascript:;">
+										<img class=" mui-pull-left" src="img/pic4.png" style="width: 105px;height: 110px;">
+										<div class="mui-body mui-ellipsis-2">
+											卖红薯的小北黄芩粉刺调理水祛痘水去痘印水无激素
+											<p class="mui-ellipsis-2s">颜色;尺寸</p>
+											<p class="price">￥56</p>
+											<div class="mui-numbox" data-numbox-min='1'>
+												<!-- "-"按钮，点击可减小当前数值 -->
+												<button class="mui-btn mui-numbox-btn-minus" id="jian" type="button">-</button>
+												<input class="mui-numbox-input" type="number" />
+												<!-- "+"按钮，点击可增大当前数值 -->
+												<button class="mui-btn mui-numbox-btn-plus" id="jia" type="button">+</button>
+											</div>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+	
+
+			
+	</body>
+
+	<script type="text/javascript">
+		mui.init({
+			pullRefresh: {
+				container: "#refreshContainer",
+				down: {
+					contentdown: "下拉可以刷新",
+					contentover: "释放立即刷新",
+					contentrefresh: "正在刷新...",
+					callback: pulldownRefresh
+				}
+			}
+			
+			
+		});
+		mui.init({
+			pullRefresh: {
+				container: "#refreshContainer", //待刷新区域标识，querySelector能定位的css选择器均可，比如：id、.class等
+				up: {
+					height: 50, //可选.默认50.触发上拉加载拖动距离
+					//					auto: true, //可选,默认false.自动上拉加载一次
+					contentdown: "上拉可以加载",
+					contentover: "释放立即加载",
+					contentrefresh: "正在加载...",
+					callback: pullupRefresh //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+				}
+			}
+		})
+
+
+
+		function pulldownRefresh() {
+			setTimeout(function() {
+
+				mui("#refreshContainer").pullRefresh().endPulldownToRefresh();
+			}, 1500);
+		}
+
+		function pullupRefresh() {
+			setTimeout(function() {
+				
+				mui("#refreshContainer").pullRefresh().endPullupToRefresh(false);
+
+			}, 1500);
+		}
+		
+	</script>
+
+</html>

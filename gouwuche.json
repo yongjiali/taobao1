@@ -1,0 +1,53 @@
+{
+	"imgs":[
+		{
+			"img1":"img/pic1.png",
+			"img2":"img/pic2.png",
+			"img3":"img/pic3.png",
+			"img4":"img/pic4.png"
+		}
+	],
+	"names":[
+		{
+			"name1":"卖红薯的小北家",
+			"name2":"杨才树女斑旗舰店",
+			"name3":"贝壳服务店"
+			
+		}
+	],
+	
+	"information":[
+		{
+			"imgUrl":"img/pic1.png",
+			"contenter":"卖红薯的小北黄芩粉刺调理水祛痘水去痘印水无激素",
+			"price":"56",
+			"price2":"56",
+			"price3":"颜色；尺寸"
+		},
+		
+		{
+			"imgUrl":"img/pic2.png",
+			"contenter":"2015夏季透气量棉麻连衣裙 夏中群波西米雪纺长裙",
+			"price":"31",
+			"price2":"258",
+			"price3":"颜色；尺寸"
+			
+		},
+		{
+			"imgUrl":"img/pic3.png",
+			"contenter":"2015秋装新款韩版连帽宽松大码中长款卫衣女装外套",
+			"price":"89",
+			"price2":"138",
+			"price3":"颜色；尺寸"
+			
+		},
+		{
+			"imgUrl":"img/pic4.png",
+			"contenter":"卖红薯的小北黄芩粉刺调理水祛痘水去痘印水无激素",
+			"price":"49",
+			"price2":"109",
+			"price3":"颜色；尺寸"
+			
+		}
+	]
+}

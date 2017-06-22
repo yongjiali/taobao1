@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/taobao-one.css"/>
+    <link rel="stylesheet" type="text/css" href="css/taobao.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+    <header class="mui-bar mui-bar-nav " id="header">
+    	<a class="mui-icon iconfont icon-erweima " id="icon" href="##">
+    		<div class="tabs tabs-icon-top">扫一扫</div>
+    	</a>
+	    <a class="mui-icon iconfont icon-xiaoxi mui-icon-right-nav mui-pull-right" id="icon-one">
+	    	<div class="tabs tabs-icon-top">消息</div>
+	    </a>
+	    <div class="mui-title" id="border">
+	    	<font class="mui-icon mui-icon-search" id="icon-tow"></font>
+	    	纤纤玉手如何保养
+	    </div>
+    </header>
+	<div class="mui-content">
+	  <div class="mui-slider">
+  <div class="mui-slider-group mui-slider-loop">
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="4.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/carouselBox61.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/carouselBox63.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/carouselBox62.jpg" /></a></div>
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/carouselBox61.jpg" /></a></div>
+  </div>
+  <div class="mui-slider-indicator">
+    <div class="mui-indicator mui-active"></div>
+    <div class="mui-indicator"></div>
+    <div class="mui-indicator"></div>
+  </div>
+</div>
+<table cellpadding="0" cellspacing="0" id="table-one">
+	<tr>
+		<th>
+			<img src="img/menu1.png" class="pic" />
+			<p>天猫</p>
+		</th>
+		<th>
+			<img src="img/menu2.png" class="pic"/>
+			<p>聚划算</p>
+		</th>
+		<th>
+			<img src="img/menu3.png" class="pic"/>
+			<p>淘生活</p></th>
+		<th>
+			<img src="img/menu4.png" class="pic"/>
+			<p>淘点点</p>
+		</th>
+		<th>
+			<img src="img/menu5.png" class="pic"/>
+			<p>天猫超市</p>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img/menu6.png" class="pic" />
+			<p>充值</p>
+		</th>
+		<th>
+			<img src="img/menu7.png" class="pic"/>
+			<p>旅行</p>
+		</th>
+		<th>
+			<img src="img/menu8.png" class="pic"/>
+			<p>金币</p></th>
+		<th>
+			<img src="img/menu9.png" class="pic"/>
+			<p>宝箱</p>
+		</th>
+		<th>
+			<img src="img/menu10.png" class="pic"/>
+			<p>分类</p>
+		</th>
+	</tr>
+	
+</table>
+<table border="1px" id="table-tow">
+	<tr>
+		<th rowspan="2">
+			<img src="img/hotPic1.png"/>
+		</th>
+		<th colspan="2">
+			<img src="img/hotPic2.png"/>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img/hotPic3.png"/>
+		</th>
+		<th>
+			<img src="img/hotPic4.png"/>
+		</th>
+	</tr>
+</table>
+<table border="1" cellpadding="1px" cellspacing="1px" id="table-three">
+	<tr>
+		<th>
+			<img src="img/hotPic5.png"/ width="100%" height="120px">
+		</th>
+	    <th>
+	    	<img src="img/hotPic6.png"/ width="100%">
+	    </th>
+		<th>
+			<img src="img/hotPic7.png"/ width="100%">
+		</th>
+		<th>
+			<img src="img/hotPic8.png"/ width="100%">
+		</th>
+	</tr>
+</table>
+<div id="word"><p>猜您喜欢</p></div>
+<!--第一个-->
+<ul class="mui-table-view mui-grid-view">
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic1.png">
+            <div class="word-one mui-ellipsis-2">
+                        雪纺印花百褶裙半身 裙，简约的线条和版型上身很好看。整体更有型
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;115</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;62 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic2.png">
+            <div class="word-one mui-ellipsis-2">
+            	时尚真皮女凉鞋 牛筋底中跟欧美潮鞋 2015夏个性森系女鞋子罗马
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;219</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;3 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+</ul>
+<!--第2个-->
+<ul class="mui-table-view mui-grid-view">
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic3.png">
+            <div class="word-one mui-ellipsis-2">
+                       藤雷达椅 太阳椅藤椅 躺椅 午休藤睡椅 编藤阳台躺椅 懒人月亮椅
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;320</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;14 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic4.png">
+            <div class="word-one mui-ellipsis-2">
+            	一件漂亮的软纱公主裙，搭上一双白色高跟鞋，又美丽又简单。
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;90</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;66 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+</ul>
+<!--第3个-->
+<ul class="mui-table-view mui-grid-view">
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic5.png">
+            <div class="word-one mui-ellipsis-2">
+                       自制果冻不甸 餐厅专供原料 夏天美食，草莓味
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;21</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;236 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic1.png">
+            <div class="word-one mui-ellipsis-2">
+            	 雪纺印花百褶裙半身 裙，简约的线条和版型上身很好看。整体更有型
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;115</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;62 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+</ul>
+<!--第4个-->
+ <ul class="mui-table-view mui-grid-view">
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic2.png">
+            <div class="word-one mui-ellipsis-2">
+                      时尚真皮女凉鞋 牛筋底中跟欧美潮鞋 2015夏个性森系女鞋子罗马
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;219</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;3 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic1.png">
+            <div class="word-one mui-ellipsis-2">
+            	  藤雷达椅 太阳椅藤椅 躺椅 午休藤睡椅 编藤阳台躺椅 懒人月亮椅
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;320</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;14 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+</ul>
+<!--第5个-->
+<ul class="mui-table-view mui-grid-view">
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic4.png">
+            <div class="word-one mui-ellipsis-2">
+                 	一件漂亮的软纱公主裙，搭上一双白色高跟鞋，又美丽又简单。
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;90</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;86 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic5.png">
+            <div class="word-one mui-ellipsis-2">
+                       自制果冻不甸 餐厅专供原料 夏天美食，草
+                     莓味
+            </div>
+            <div class="word-tow">
+            	<p>￥&nbsp;&nbsp;21</p>
+	        </div>
+	        <div class="word-three">
+            	<span class="word-three-one">月销 &nbsp;236 &nbsp;笔</span>
+            	<span class="word-three-tow">免邮费</span>
+	        </div>
+        </a>
+    </li>
+</ul>
+
+<div id="bottom">已经到最后.</div>
+</body>
+<script type="text/javascript">
+	var gallery = mui('.mui-slider');
+                 gallery.slider({
+                 interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+                 });
+                 
+    mui("#header").on("tap","#icon",function(){
+    	mui.openWindow("saoma.html");
+    })
+    
+    mui("#header").on("tap","#border",function(){
+    	mui.openWindow("sousuo.html");
+    })
+</script>
+</html>

@@ -1,0 +1,174 @@
+a{
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 100;
+	color: black;
+}
+body{
+	font-size: 12px;
+}
+.mui-title{
+	width: 80%;
+}
+#head span{
+	float: right;
+	margin-right: 10%;
+}
+#head input{
+	float: left;
+	margin-left: 30%;
+}
+/*#head input{
+	float: right;
+	margin-right: 30%;
+}*/
+.mui-title1{
+	line-height: 38px;
+	height: 38px;
+	background-color: orangered;
+	border:none;
+	border-bottom: 1px solid white;
+	float: left;
+}
+
+.mui-table-view-cell{
+	list-style:none;
+}
+.mui-bar-nav{
+	background-color: #FF4400;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+}
+.mui-pull-left{
+	color: white;
+}
+.mui-navigate-right span{
+	font-size: 13px;
+}
+.mui-navigate-right{
+	font-size: 13px;
+	text-align: center;
+}
+.table{
+	width: 100%;
+	height:35px;
+	
+}
+#xulie span{
+	font-size: 12px;
+}
+.table1 td{
+	text-align: center;
+}
+.liebiao{
+	display:none;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: 1000;
+}
+.shaixuan3 span{
+	font-size: 12px;
+}
+.shaixuan{
+	display:none;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: 1000;
+}
+.fuhao span{
+	font-size: 12px;
+}
+.qujian1{
+	width: 27%;
+	border: none;
+	background-color: #EFEFF4;
+}
+.qujian2{
+	width: 27%;
+	font-size: 12px;
+}
+#xia{
+	float: right;
+}
+#xia1{
+	float: right;
+}
+.mui-icon-arrowdown{
+	
+	font-size: 12px;
+}
+.zhekou{
+	font-size: 12px;
+}
+.zong{
+	margin-top: 10px;
+}
+.zong1{
+	float: left;
+	width: 22%;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 5px;
+	margin-left: 3%;
+	background-color: #EFEFF4;
+	text-align: center;
+}
+.fenlei{
+	color: orangered;
+}
+.song{
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+}
+.song1{
+	float: left;
+	width: 31%;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 5px;
+	margin-left: 2%;
+	background-color: #EFEFF4;
+	text-align: center;
+}
+.anniu{
+	width: 35%;
+	margin-left: 32%;
+}
+.queren{
+	margin-top: 25px;
+	width: 100%;
+	color: white;
+}
+.mui-media-body{
+	font-weight: bold;
+	float: left;
+	width: 60%;
+	margin-left:5%;
+}
+.mui-ellipsis{
+	color: #212121;
+}
+.faxian_1{
+	position: relative;
+}
+.quanbu{
+	position:absolute;
+	z-index: 1000;
+}
+.mui-card{
+	width: 43%;
+	float: left;
+	margin-left:2%;
+}
+.mui-card-content{
+	color: #6F6F6F;
+	font-weight: bold;
+	font-size: 12px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 4%;
+}

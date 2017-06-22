@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/wode1.css" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">mui.init()</script>
+		<!--<script type="text/javascript">
+     		var shezhi=document.getElementById("wenzi");
+			shezhi.addEventListener("tap",function(){
+				mui.openWindow({
+					url:"shezhi.html",
+					id:"shezhi.html"
+				})
+			})
+		</script>-->
+	</head>
+
+	<body>
+		
+			<div class="top">
+				<div class="top1">
+					<a><span id="wenzi" >设置</span></a>
+					<div class="top-right" onclick="scanPicture()"><span><img class="mui-media-object" src="img/pico4.png"  id="tu4"/></span></div>
+				</div>
+				<div class="top2">
+					<div class="tou"><img src="img/menu8.png" /style="border-radius: 50%;width: 60%; height: 60%;"></div>
+					<div class="tou-right">
+						<a href="#"><span></span>淘气值&nbsp;542&nbsp;&nbsp;></a>
+					</div>
+				</div>
+			</div>
+			<div class="concent">
+				<ul class="mui-table-view mui-grid-view">
+					<li class="mui-table-view-cell mui-media mui-col-xs-3">
+						<a href="#">
+							<img class="mui-media-object" src="img/pico4.png" id="img">
+							<div class="mui-media-body " id="write">同团聊</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3">
+						<a href="#">
+							<img class="mui-media-object" src="img/pico12.png" id="img1">
+							<div class="mui-media-body" id="write1">我的订单</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3">
+						<a href="#">
+							<img class="mui-media-object" src="img/pico6.png" id="img2">
+							<div class="mui-media-body" id="write2">商城</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3">
+						<a href="#">
+							<img class="mui-media-object" src="img/pico8.png" id="img3">
+							<div class="mui-media-body" id="write3">我的收藏</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a1">
+								我的小金库
+								<img src="img/pico3.png" style="height: 15px; width: 15px;" />
+							</div>
+							<div id="a2">抵用卷、旅游券</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a3">
+								会员俱乐部
+								<img src="img/pico10.png" style="height: 15px;width: 15px;" />
+							</div>
+							<div id="a4">活动、权益</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a5">
+								活动
+								<img src="img/pico1.png" style="height: 18px; width: 18px;" />
+							</div>
+							<div id="a6">抢购、红包、夺宝</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a7">
+								资料管家
+								<img src="img/pico13.png" style="height: 11px;width: 11px;" />
+							</div>
+							<div id="a8">个人资料、常旅资料</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a9">
+								牛拉牛
+								<img src="img/pico5.png" style="height: 19px;width: 19px;" />
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a10">
+								社区
+								<img src="img/pico7.png" style="height: 13px; width: 13px;" />
+							</div>
+							<div id="a11">抵用券、旅游券</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<div id="a12">其它...</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript">var shezhi = document.getElementById("wenzi");
+shezhi.addEventListener("tap", function() {
+	mui.openWindow({
+		url: "shezhi.html",
+		id: "shezhi.html"
+	})
+})
+var ws = null,
+	wo = null;
+var scan = null,
+	domready = false;
+// H5 plus事件处理
+//function plusReady() {
+//	if(ws || !window.plus || !domready) {
+//		return;
+//	}
+//	// 获取窗口对象
+//	ws = plus.webview.currentWebview();
+//	wo = ws.opener();
+
+	function scanPicture() {
+		plus.gallery.pick(function(path) {
+			plus.barcode.scan(path, onmarked, function(error) {
+				plus.nativeUI.alert("无法识别此图片");
+			});
+		}, function(err) {
+			plus.nativeUI.alert("Failed: " + err.message);
+		});
+	}
+
+	function back() {
+		ws.close();
+	}</script>
+	</body>
+
+</html>

@@ -1,0 +1,12 @@
+.mui-bar{-webkit-box-shadow: none;}
+
+.mui-bar-tab{display: block;height: 60px;}
+.mui-bar-tab .left{float: left;width: 60%;height: 100%;line-height: 60px;text-align: right;}
+.left .heji{color: #999999;font-size: 20px;}
+.left .money{color: #C34A48;font-size: 20px;}
+.mui-bar-tab .right{float: right;width: 30%;background-color: #FD5001;height: 100%;line-height: 60px;color: white;text-align: center;}
+.mui-table-view-cell.mui-active{
+	/*background-color: white;height: 60px;*/
+}
+
+

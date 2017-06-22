@@ -1,0 +1,44 @@
+{
+	
+	"content":[
+		{
+			"startimg":"img/pic2.png",
+			"engimg":"img/pic1.png",
+			"title":"雪纺印花百褶裙半身裙，简约的线条和版型上身很好看，整体更有看点。时尚真皮女凉鞋牛筋底中跟欧美潮鞋2015夏个性森系女鞋子罗马鞋。",
+			"title1":"聚酯纤维",
+			"title2":"纯电商",
+			"title3":"左微微",
+			"title4":"修身",
+			"title5":"厚"
+		}
+		],
+	"data":[
+		{
+			"imgUrl":"img/pic1.png",
+			"width":"100%",
+			"height":"300px"
+		},
+		{
+			"imgUrl":"img/pic2.png",
+			"width":"100%",
+			"height":"300px"
+		}
+	],
+	"information":[
+		{
+			"imgUrl":"img/pic1.png",
+			"contenter":"雪纺印花百褶裙半身裙，简约的线条和版型上身很好看，整体更有看点。",
+			"price":"115",
+			"price2":"150",
+			"price3":"快递 免运费",
+			"price4":"月销62笔",
+			"price5":"辽宁鞍山"	,
+			"price6":"请选择颜色分类"
+		}
+	],
+	"scroll":[
+		{
+			
+		}
+	]
+}

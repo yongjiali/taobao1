@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/taobao-one.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+		mui.init()
+	    </script>
+	    <header class="mui-bar mui-bar-nav " id="header">
+			<a class="mui-icon iconfont icon-erweima " id="icon" href="##">
+				<div class="tabs tabs-icon-top">扫一扫</div>
+			</a>
+			<a class="mui-icon iconfont icon-xiaoxi mui-icon-right-nav mui-pull-right" id="icon-one">
+				<div class="tabs tabs-icon-top">消息</div>
+			</a>
+			<div class="mui-title" id="border">
+				<font class="mui-icon mui-icon-search" id="icon-tow"></font>
+				纤纤玉手如何保养
+			</div>
+		</header>
+	</body>
+	<script type="text/javascript" charset="utf-8">
+			mui.init({
+				subpages: [{
+					url: "shouye.html",
+					id: "shouye.html",
+					styles: {
+						top: "44px",
+						bottom: "0px"
+					}
+				}]
+			});
+			
+			
+		mui("#header").on("tap", "#icon", function() {
+			mui.openWindow("saoma.html");
+		})
+
+		mui("#header").on("tap", "#border", function() {
+			mui.openWindow("sousuo.html");
+		})
+		</script>
+</html>

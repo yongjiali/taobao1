@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/taobao-one.css"/>
+    <link rel="stylesheet" type="text/css" href="css/taobao.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <a class="mui-action-back mui-icon mui-icon-right-nav mui-pull-right"></a>
+	    <h1 class="mui-title">纤纤玉手如何保养</h1>
+	</header>
+	<div class="mui-content">
+	  <div class="mui-slider">
+  <div class="mui-slider-group mui-slider-loop">
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="4.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/carouselBox61.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/carouselBox63.jpg" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="img/carouselBox62.jpg" /></a></div>
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/carouselBox61.jpg" /></a></div>
+  </div>
+  <div class="mui-slider-indicator">
+    <div class="mui-indicator mui-active"></div>
+    <div class="mui-indicator"></div>
+    <div class="mui-indicator"></div>
+  </div>
+</div>
+<table cellpadding="0" cellspacing="0" id="table-one">
+	<tr>
+		<th>
+			<img src="img/menu1.png" class="pic" />
+			<p>天猫</p>
+		</th>
+		<th>
+			<img src="img/menu2.png" class="pic"/>
+			<p>聚划算</p>
+		</th>
+		<th>
+			<img src="img/menu3.png" class="pic"/>
+			<p>淘生活</p></th>
+		<th>
+			<img src="img/menu4.png" class="pic"/>
+			<p>淘点点</p>
+		</th>
+		<th>
+			<img src="img/menu5.png" class="pic"/>
+			<p>天猫超市</p>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img/menu6.png" class="pic" />
+			<p>充值</p>
+		</th>
+		<th>
+			<img src="img/menu7.png" class="pic"/>
+			<p>旅行</p>
+		</th>
+		<th>
+			<img src="img/menu8.png" class="pic"/>
+			<p>金币</p></th>
+		<th>
+			<img src="img/menu9.png" class="pic"/>
+			<p>宝箱</p>
+		</th>
+		<th>
+			<img src="img/menu10.png" class="pic"/>
+			<p>分类</p>
+		</th>
+	</tr>
+	
+</table>
+<table border="1px" id="table-tow">
+	<tr>
+		<th rowspan="2">
+			<img src="img/hotPic1.png"/>
+		</th>
+		<th colspan="2">
+			<img src="img/hotPic2.png"/>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img/hotPic3.png"/>
+		</th>
+		<th>
+			<img src="img/hotPic4.png"/>
+		</th>
+	</tr>
+</table>
+<table border="1" cellpadding="1px" cellspacing="1px" id="table-three">
+	<tr>
+		<th>
+			<img src="img/hotPic5.png"/ width="100%" height="120px">
+		</th>
+	    <th>
+	    	<img src="img/hotPic6.png"/ width="100%">
+	    </th>
+		<th>
+			<img src="img/hotPic7.png"/ width="100%">
+		</th>
+		<th>
+			<img src="img/hotPic8.png"/ width="100%">
+		</th>
+	</tr>
+</table>
+<div id="word"><p>猜您喜欢</p></div>
+<ul class="mui-table-view mui-grid-view">
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic1.png">
+           
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+        <a href="#">
+            <img class="mui-media-object" src="img/pic2.png">
+            <div class="word-one mui-ellipsis-2"><p>时尚真皮女凉鞋 牛筋底中跟欧美潮鞋 2015夏个性森系女鞋子罗马雪纺印花百褶裙半身裙，简约的线条和版型上身很好看，整体更有</p></div>
+        </a>
+    </li>
+</ul>
+</body>
+<script type="text/javascript">
+	var gallery = mui('.mui-slider');
+                 gallery.slider({
+                 interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+                 });
+</script>
+</html>
